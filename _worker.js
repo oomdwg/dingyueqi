@@ -5,19 +5,20 @@ let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，不支持非TLS订阅生成
 let addresses = [
-	'icook.tw:2053#优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	'47.243.183.127:2095#香港',
+	'8.218.65.237:2095#香港',
+	'8.222.199.55:2095#新加坡',
+	'8.222.156.205:2095#新加坡',	
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt' //可参考内容格式 自行搭建。
+	'  ' //可参考内容格式 自行搭建。
 ];
 
 let DLS = 4;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv',
-	'https://raw.githubusercontent.com/oomdwg/dingyueqi/main/result.csv',//iptest测速结果文件。
+	' ',//iptest测速结果文件。
 ];
 
 let subconverter = "api.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
